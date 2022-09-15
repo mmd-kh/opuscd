@@ -1,4 +1,7 @@
 # opuscd
-script to split and convert raw flac albums to opus
+bash script to split and convert raw flac albums to opus
 
-test
+# dependencies
+- shntool
+- cuetools
+- ffmpeg
