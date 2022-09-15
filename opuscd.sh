@@ -5,7 +5,6 @@ if [ ! -z "$(grep -im 1 'REM GENRE*' *.cue | sed 's/"//g' | cut -d ' ' -f 1,2 --
 else
 	read -p "please enter the genre: " genre
 fi
-#echo $(grep -im 1 'REM GENRE*' *.cue | sed 's/"//g' | cut -d ' ' -f 1,2 --complement)
 read -p "is the above the correct genre? [y/n]: " answer
 case "$answer" in 
 	[yY] | [yY][eE][sS])
